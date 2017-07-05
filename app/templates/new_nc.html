@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<head>
+	<title>New NC (Non Conformity)</title>
+    <meta charset="UTF-8"/>
+	<div class="header"> <img src="{{ url_for('static', filename='img/header_img.png') }}" height="94">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='new_nc_style.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+   <div class="row">
+        <hr/>
+        <h1> NEW NC (NON CONFORMITY)</h1>
+        <hr/>        
+        <div class="shipping-info">
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Title</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+            
+            <div class="form-group col-md-6">
+              <label class="control-label" for="aud_title">Operator Auditee</label>
+              <div class="controls">
+                <input id="aud_title" name="aud_title" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Number</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+            
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Date</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Status</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Agreed date for CAP(Corrective Action Plan)</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Level</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Due date</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Closure date</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Requirement references</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Further references</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Auditor of CAA</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Auditee responsible for CAP</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+            <hr/>
+            
+          
+        <hr/>
+
+        <p>
+          <label>Requirement References: <textarea name="req_ref" rows="4" cols="120"></textarea>
+          </label>
+        </p>
+
+
+
+
+     
+       <p>
+          <label>Non Conformity Details: <textarea name="req_ref" rows="4" cols="120"></textarea>
+          </label>
+        </p>
+        
+
+            <div class="container col-md-6">
+  <div class="row">
+    <form>
+            <h5>Add level descriptions:</h5>
+            <label>
+                <input type="checkbox">
+                <span class="label-text">Item One</span>
+            </label>
+
+            <label>
+                <input type="checkbox">
+                <span class="label-text">Item Two</span>
+            </label>
+
+            <label>
+                <input type="checkbox">
+                <span class="label-text">Item Three</span>
+            </label>
+
+        </form>
+  </div>
+</div>
+            
+            <div class="form-group col-md-12">
+                <div class="control-group confirm-btn">
+                  <label class="control-label" for="button"></label>
+                  <div class="controls">
+                    <a href="new_ca.html" target="_blank"><button id="button" name="button" class="btn btn-primary">New CA</button></a>
+                  </div>
+                </div>
+            </div>
+
+
+            
+        </div>
+
+  </div>
+</div>
+
+<div class="panel-footer">
+                <div class="row">
+                  
+                  <div class="col col-xs-4">#Techstitution - made from volunteers
+                  </div>
+                  <div class="col col-xs-8">
+                    <ul class="pagination hidden-xs pull-right" id="myPager">
+                    </ul>
+                    <ul class="pagination visible-xs pull-left">
+                        <li><a href="#">«</a></li>
+                        <li><a href="#">»</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<head>
+	<title>New CA (Corrective Actions)</title>
+    <meta charset="UTF-8"/>
+	<div class="header"> <img src="{{ url_for('static', filename='img/header_img.png') }}" height="94">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='new_ca_style.css')}}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+   <div class="row">
+        <hr/>
+        <h1> NEW CA (CORRECTIVE ACTIONS)</h1>
+        <hr/>        
+        <div class="finding-id">
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Finding ID</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="Automatically" class="form-control" required="">
+              </div>
+            </div>
+            
+            <div class="form-group col-md-6">
+              <label class="control-label" for="aud_title">Corrective Action Description</label>
+              <div class="controls">
+                <input id="aud_title" name="aud_title" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Date of CAP approval </label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+            
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Due date</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="Deadline" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Contact Person</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Closure Date</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="If it is due date is close, else opened" class="form-control" required="">
+              </div>
+            </div>
+
+            <div class="form-group col-md-6">
+              <label class="control-label" for="ref_num">Due Date History</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="Text of dates that were changed during the follow up actions" class="form-control" required="">
+              </div>
+            </div>
+
+
+              <div class="form-group col-md-12 bg-primary">
+            <label class="control-label" for="billinginformation">Audit corrective actions:</label>
+        </div>
+        
+        <div class="shipping-info">
+            <div class="form-group col-md-4">
+              <label class="control-label" for="ref_num">Date:</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+            
+            <div class="form-group col-md-4">
+              <label class="control-label" for="aud_title">Description:</label>
+              <div class="controls">
+                <input id="aud_title" name="aud_title" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+            <div class="form-group col-md-4">
+              <label class="control-label" for="aud_title">New proposed due date:</label>
+              <div class="controls">
+                <input id="aud_title" name="aud_title" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+               <div class="form-group col-md-12 bg-primary">
+            <label class="control-label" for="billinginformation">CAA follow up actions:</label>
+        </div>
+        
+        <div class="shipping-info">
+            <div class="form-group col-md-4">
+              <label class="control-label" for="ref_num">Date:</label>
+              <div class="controls">
+                <input id="ref_num" name="ref_num" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+            
+            <div class="form-group col-md-4">
+              <label class="control-label" for="aud_title">Description:</label>
+              <div class="controls">
+                <input id="aud_title" name="aud_title" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+            <div class="form-group col-md-4">
+              <label class="control-label" for="aud_title">Who is responsible:</label>
+              <div class="controls">
+                <input id="aud_title" name="aud_title" type="text" placeholder="" class="form-control" required="">
+              </div>
+            </div>
+
+
+            <div class="form-group col-md-4">
+              <label class="control-label" for="aud_title">New due date: </label>
+              <div class="controls">
+                <input id="aud_title" name="aud_title" type="text" placeholder="Update initial due date (Deadline)" class="form-control" required="">
+              </div>
+            </div>
+
+
+
+                  <div class="form-group col-md-12 bg-primary">
+            <label class="control-label" for="billinginformation">Documents attached:</label>
+        </div>
+
+      
+        
+        <div class="row">
+        <p class="col-xs-2"><strong>1. Foto:</strong> </p>
+     <div class="fileupload fileupload-new col-xs-4" data-provides="fileupload">
+    <span class="btn btn-primary btn-file"><span class="fileupload-new">Browse</span> 
+        </div>
+        </div>
+
+
+        <div class="row">
+         <p class="col-xs-2"><strong>2. Evidenca:</strong> </p>
+     <div class="fileupload fileupload-new col-xs-4" data-provides="fileupload">
+    <span class="btn btn-primary btn-file"><span class="fileupload-new">Browse</span> 
+        </div>
+      </div>
+
+
+        <div class="row">
+         <p class="col-xs-2"><strong>3. Raporti:</strong> </p>
+     <div class="fileupload fileupload-new col-xs-4" data-provides="fileupload">
+    <span class="btn btn-primary btn-file"><span class="fileupload-new">Browse</span> 
+        </div>
+      </div>
+
+      <div class="row">
+         <p class="col-xs-2"><strong>4. Orari:</strong> </p>
+     <div class="fileupload fileupload-new col-xs-4" data-provides="fileupload">
+    <span class="btn btn-primary btn-file"><span class="fileupload-new">Browse</span> 
+        </div>
+      </div>
+
+        <div class="row">
+         <p class="col-xs-2"><strong>5. Checklists:</strong> </p>
+     <div class="fileupload fileupload-new col-xs-4" data-provides="fileupload">
+    <span class="btn btn-primary btn-file"><span class="fileupload-new">Browse</span> 
+        </div>
+      </div>
+
+
+              <div class="form-group col-md-12">
+                <div class="control-group confirm-btn">
+                  <label class="control-label" for="button"></label>
+                  <div class="controls">
+                    <button id="button" name="button" class="btn btn-primary">Save</button>
+                  </div>
+                </div>
+            </div>
+
+            </div>
+
+  </div>
+</div>
+
+<div class="panel-footer">
+                <div class="row">
+                  
+                  <div class="col col-xs-4">#Techstitution - made from volunteers
+                  </div>
+                  <div class="col col-xs-8">
+                    <ul class="pagination hidden-xs pull-right" id="myPager">
+                    </ul>
+                    <ul class="pagination visible-xs pull-left">
+                        <li><a href="#">«</a></li>
+                        <li><a href="#">»</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+</body>
+</html>

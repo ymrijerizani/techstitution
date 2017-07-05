@@ -1,0 +1,55 @@
+.row h1{
+    font-family: times;
+    font-weight: bold;  
+    color: blue;
+}
+h2.bg-success{
+    padding: 15px;
+}
+
+.required-lbl{
+    color: red;
+}
+
+label[for="billinginformation"]{
+    display: inline;
+    float: left;
+    margin:0px 45px 0px 0px;
+}
+
+.card-expiry{
+    padding-left: 0px;
+}
+
+.confirm-btn{
+    float:right;
+}
+
+.bg-primary{
+    padding: 10px;
+}
+
+label{
+    margin-bottom :0px;
+}
+
+
+html, body {
+    padding-top: 0px;
+}
+
+[data-role="dynamic-fields"] > .form-inline + .form-inline {
+    margin-top: 0.5em;
+}
+
+[data-role="dynamic-fields"] > .form-inline [data-role="add"] {
+    display: none;
+}
+
+[data-role="dynamic-fields"] > .form-inline:last-child [data-role="add"] {
+    display: inline-block;
+}
+
+[data-role="dynamic-fields"] > .form-inline:last-child [data-role="remove"] {
+    display: none;
+}
